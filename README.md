@@ -12,4 +12,5 @@ Simple JavaScript-based front-end app: Calculator with numbers and metrics.
 ![image](https://user-images.githubusercontent.com/1689586/107688461-54578d80-6cb0-11eb-962f-4624d95371fd.png)
 
 ## Live Demo
-  - https://js-calculator.nakov.repl.co
+ - https://nakov.github.io/JS-Calculator-Numbers-Metrics
+ - https://js-calculator.nakov.repl.co
