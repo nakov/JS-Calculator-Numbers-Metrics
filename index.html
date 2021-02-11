@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Calculator App</title>
+	<link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <a href="#" data-target="#screenWelcome">Welcome</a> |
+    <a href="#" data-target="#screenNumberCalc">Number Calculator</a> |
+    <a href="#" data-target="#screenMetricCalc">Metric Calculator</a>    
+  </header>
+
+  <section id="screenWelcome">
+    <h1>Welcome</h1>
+    <p>Welcome to the JS calculator app.</p>
+    <p>Choose a calculator from the navigation.</p>
+  </section>
+
+  <section id="screenNumberCalc">
+    <h1>Number Calculator</h1>
+    <form>
+      <div class="row">
+        <label for="number1">First Number:</label>
+        <input type="text" id="number1" placeholder="1st number" />
+      </div>
+      <div class="row">
+        <label for="operation">Operation:</label>
+        <select id="operation">
+          <option disabled selected>-- select an operation --</option>
+          <option value="+"><b>+</b> (sum)</option>
+          <option value="-"><b>-</b> (subtract)</option>
+          <option value="*"><b>*</b> (multiply)</option>
+          <option value="/"><b>/</b> (divide)</option>
+        </select>
+      </div>
+      <div class="row">
+        <label for="number2">Second Number:</label>
+        <input type="text" id="number2" placeholder="2nd number" />
+      </div>
+      <div class="buttons-bar">
+        <input type="button" value="Calculate" />
+        <input type="reset" value="Reset" />
+      </div>
+    </form>
+    <div class="result" />
+  </section>
+
+  <section id="screenMetricCalc">
+    <h1>Metric Calculator</h1>
+    <form>
+      <div class="row">
+        <label for="fromValue">From Value:</label>
+        <input type="text" id="fromValue" placeholder="from value" />
+      </div>
+      <div class="row">
+        <label for="sourceMetric">From Metric:</label>
+        <select id="sourceMetric">
+          <option disabled selected>-- select source metric --</option>
+          <option value="km">kilometers (km)</option>
+          <option value="m">meters (m)</option>
+          <option value="cm">centimeters (cm)</option>
+          <option value="mm">milimeters (mm)</option>
+        </select>
+      </div>
+      <div class="row">
+        <label for="destMetric">To Metric:</label>
+        <select id="destMetric">
+          <option disabled selected>-- select destination metric --</option>
+          <option value="km">kilometers (km)</option>
+          <option value="m">meters (m)</option>
+          <option value="cm">centimeters (cm)</option>
+          <option value="mm">milimeters (mm)</option>
+        </select>
+      </div>
+      <div class="buttons-bar">
+        <input type="button" value="Calculate" />
+        <input type="reset" value="Reset" />
+      </div>
+    </form>
+   <div class="result" />
+  </section>
+
+  <script src="navigation.js"></script>
+  <script src="nums-calc.js"></script>
+  <script src="metric-calc.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+  display: none;
+}
+
+section:first-of-type {
+  display: block;
+}
+
+header {
+  background: #eee;
+  padding: 8px 10px;
+  margin-bottom: 15px;
+}
+
+h1 {
+  margin: 0px 0px 10px 0px;
+}
+
+.buttons-bar, .row, #result {
+    margin-top: 5px;
+}
+
+h4, pre {
+  display: inline;
+}
+
+section div.result {
+  margin-top: 10px;
+}
+
+section div.result > i {
+  color: red;
+}
