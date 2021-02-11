@@ -1,6 +1,7 @@
 # JS Calculator (Numbers and Metrics)
 
-Simple JavaScript-based Calculator app (with numbers and metrics)
+Simple JavaScript-based front-end app: Calculator with numbers and metrics.
+  - Sample project, used for automated testing with Selenium and SpecFlow
 
 ## Screenshots
 
